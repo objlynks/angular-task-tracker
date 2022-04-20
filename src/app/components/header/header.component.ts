@@ -15,5 +15,8 @@ export class HeaderComponent implements OnInit {
     this.btnColor = "blue";
     this.btnText = "Add";
   }
+toggleAddTask(){
+  console.log("Add clicked");
+}
 
 }
